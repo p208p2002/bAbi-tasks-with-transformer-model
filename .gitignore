@@ -3,3 +3,4 @@ wandb/
 __py*
 my_model/*
 eval_result/
+ds_config.json
