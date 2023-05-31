@@ -28,3 +28,6 @@ Fine tune and evaluate transformer model on facebook's bAbi tasks.
 
 ## Avaliable Models
 - [gpt2-babi](https://huggingface.co/p208p2002/gpt2-babi)
+- [gpt2-medium-babi](https://huggingface.co/p208p2002/gpt2-medium-babi)
+- [gpt2-large-babi](https://huggingface.co/p208p2002/gpt2-large-babi)
+- [gpt2-xl-babi](https://huggingface.co/p208p2002/gpt2-xl-babi)
