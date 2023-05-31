@@ -57,12 +57,6 @@ training_args = TrainingArguments(
     gradient_accumulation_steps=args.gradient_accumulation
 )
 
-training_args.set_lr_scheduler(
-    max_steps=-1,
-    warmup_ratio=0,
-    warmup_steps=0
-)
-
 trainer = Trainer(
     model=model,
     args=training_args,
