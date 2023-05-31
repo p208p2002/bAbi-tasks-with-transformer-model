@@ -1,0 +1,5 @@
+.vscode/*
+wandb/
+__py*
+my_model/*
+eval_result/
