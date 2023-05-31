@@ -8,10 +8,10 @@ import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument("model_name_or_id")
-parser.add_argument('-lr',default=3e-4)
-parser.add_argument('-batch_size',default=6)
-parser.add_argument('-epoch',default=3)
-parser.add_argument('-ga','--gradient_accumulation',default=2)
+parser.add_argument('-lr',default=3e-4,type=float)
+parser.add_argument('-batch_size',default=6,type=int)
+parser.add_argument('-epoch',default=3,type=int)
+parser.add_argument('-ga','--gradient_accumulation',default=1,type=int)
 args = parser.parse_args()
 
 class Trainer(DefaultTrainer):

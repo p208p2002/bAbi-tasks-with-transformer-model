@@ -47,7 +47,7 @@ for task_id in range(20):
         model_prediction.append(pred)
         references.append(label)
 
-        print(data_idx, raw_data["answer"], pred_words,end="\r")
+        print(data_idx, raw_data["answer"], pred_words)
         df = pd.concat(
             [
                 df,
